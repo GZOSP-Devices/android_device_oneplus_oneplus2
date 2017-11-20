@@ -265,7 +265,9 @@ PRODUCT_PACKAGES += \
 # Prebuilts
 PRODUCT_PACKAGES += \
     OnePlusCamera \
-    OnePlusCameraService 
+    OnePlusCameraService \
+    PixelLauncher \
+    PixelWalls
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/lib/libfilter-sdk.so:system/lib/libfilter-sdk.so \
