@@ -103,7 +103,8 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-service
 
 PRODUCT_PACKAGES += \
-    libbt-vendor
+    libbt-vendor \
+    bt-mac-generator
 
 # Camera
 #RODUCT_PACKAGES += \
