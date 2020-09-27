@@ -111,14 +111,14 @@ PRODUCT_PACKAGES += \
     libbt-vendor
 
 # Camera
-PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl
+#PRODUCT_PACKAGES += \
+#    android.hardware.camera.provider@2.4-impl
 
-PRODUCT_PACKAGES += \
-    camera.msm8994 \
-    libshim_atomic \
-    sensors.hal.tof \
-    Snap
+#PRODUCT_PACKAGES += \
+#    camera.msm8994 \
+#    libshim_atomic \
+#    sensors.hal.tof \
+#    Snap
 
 # DRM
 PRODUCT_PACKAGES += \
